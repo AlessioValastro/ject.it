@@ -40,11 +40,13 @@ const values = document.querySelectorAll(".ject__more-content_values-value");
 
 values.forEach(value => {
   const height = value.offsetHeight;
+  const width = value.offsetWidth;
   maxHeight = Math.max(maxHeight, height);
-  
+  maxWidth = Math.max(maxWidth, width);
 });
 values.forEach(value => {
   value.style.height = maxHeight + "px";
+  value.style.width = maxWidth + "px";
 })
 
 document.addEventListener("DOMContentLoaded", function() {
