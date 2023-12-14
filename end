@@ -1,0 +1,71 @@
+[33mcommit 4ef50ecf4fcee1297839e8c74e20736e3a15abd9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Fri Nov 17 11:20:50 2023 +0100
+
+    ho messo add invece di toggle
+
+[33mcommit 371592364d8ea7332b4bb31d412fa5b26e7c6d9d[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Wed Nov 15 12:08:45 2023 +0100
+
+    adjastment
+
+[33mcommit 74f6c7c53065386bf33dca832f612f78aa3f4894[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Fri Nov 10 13:00:03 2023 +0100
+
+    padding
+
+[33mcommit 3275f6625c00f84fd78a3d1b744b4273e5b567e2[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Fri Nov 10 12:55:02 2023 +0100
+
+    Ripristino pieno funzionamento
+
+[33mcommit 2eda816a7f20997583194fab2da66004031907ec[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 16:36:09 2023 +0100
+
+    changes
+
+[33mcommit 0b4deed65d2148c432efc19c875aec842300cbfc[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 16:32:58 2023 +0100
+
+    changes
+
+[33mcommit 8e33cb5e334ea6220f80ae1549908d5c84012076[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 16:28:14 2023 +0100
+
+    changes
+
+[33mcommit 2bd2ac38cd2ddabeef37a102cc3a3dc4440ea4ee[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 16:23:52 2023 +0100
+
+    piccoli cambiamenti
+
+[33mcommit 16c663dbffc6f6393dea65ac2427f8d773d13ddf[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 16:13:30 2023 +0100
+
+    Primo completamento della homepage
+
+[33mcommit 07902774cc7e50076c1fb07af0cf0b4a4b18c6b2[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Tue Oct 31 11:33:16 2023 +0100
+
+    Creazione copertina del sito e aggiunta feature menu a tendina
+
+[33mcommit 235de75cb94945bf395ca1caac73897f2605285a[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Mon Oct 30 21:45:06 2023 +0100
+
+    Creazione della Navbar, da aggiungere la parte di js
+
+[33mcommit 9ef090f68e4691301ca54dfa36fd311134eb3a8c[m
+Author: AlessioValastro2002 <valastroalessio02@gmail.com>
+Date:   Mon Oct 30 19:59:13 2023 +0100
+
+    Creazione pagina index
