@@ -209,6 +209,7 @@ a {
 .ject__hero {
   font-family: var(--font-family2);
   height: 100vh;
+  padding-top: 80px;
 
   overflow: hidden;
   display: grid;
@@ -229,8 +230,7 @@ a {
 }
 .ject__hero-content {
   color: rgb(255, 255, 255);
-  padding: 0 1.5rem 0;
-  margin: 9rem 0;
+  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
 
