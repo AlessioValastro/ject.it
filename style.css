@@ -62,12 +62,14 @@ a {
   height: 36px;
 
   border-radius: 7px;
-  background-color: #c2c8d1;
+  background-color: var(--main-color);
   color: white;
 
   line-height: 22px;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+
+  cursor: pointer;
 }
 .hidden {
   display: none;
@@ -91,6 +93,10 @@ a {
   position: fixed;
   z-index: 10;
   transition: 0.5s ease;
+}
+
+.nav__button{
+  display: none;
 }
 /* menu */
 .ject__nav-menu {
@@ -654,5 +660,58 @@ strong {
   }
   .ject__footer a{
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 720px){
+  .menu__container-social{
+    display: none;
+  }
+  .toggle{
+    display: none;
+  }
+  #checkbox{
+    display: none;
+  }
+  .ject__nav{
+    padding: 0 3rem;
+  }
+  .nav__button{
+    display: block;
+  }
+  .ject__nav-menu{
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: none;
+
+    flex: 1;
+  }
+  .nav__contatti{
+    display: none;
+  }
+  .menu__container{
+    flex-direction: row;
+    justify-content: end;
+    gap: 3rem;
+    
+  }
+  .ject__nav-menu a{
+    color: var(--main-color);
+    font-size: 1.3rem;
+    letter-spacing: 0;
+  }
+  .background-image-hero{
+    background: url(public/catania/gisira-desktop.jpg) no-repeat center;
+  }
+  .ject__hero-content{
+    text-align:center ;
+  }
+  .ject__hero-content p{
+    font-size: 2rem;
   }
 }
