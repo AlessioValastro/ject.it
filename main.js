@@ -22,6 +22,19 @@ window.addEventListener("scroll", function () {
   lastScrollTop = scrollTop;
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  const menuLinks = document.querySelectorAll('#menu a');
+  menuLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      document.getElementById('menu').classList.remove('ject__nav-menu-toggle');
+      body.classList.remove("body-block")
+      document.getElementById('checkbox').checked = false;
+
+    });
+  });
+});
+
+
 document.querySelectorAll('.faq__question').forEach(question => {
   question.addEventListener('click', () => {
     document.querySelectorAll('.careers__faq-question').forEach(faqBlock => {
@@ -37,7 +50,6 @@ document.querySelectorAll('.faq__question').forEach(question => {
 
 let maxHeight = 0, maxWidth = 0;
 const values = document.querySelectorAll(".ject__more-content_values-value");
-
 
 values.forEach(value => {
   const height = value.offsetHeight;
