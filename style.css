@@ -25,7 +25,7 @@
 
 html,
 body {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   font-size: 13.5px;
   background: #ffffff;
 
@@ -57,7 +57,7 @@ a {
 }
 /* Utils */
 .btn {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   width: 110px;
   height: 36px;
 
@@ -79,7 +79,7 @@ a {
 }
 /* STYLE */
 .ject__nav {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   height: 80px;
   width: 100%;
   padding: 0 1.5rem;
@@ -95,7 +95,7 @@ a {
   transition: 0.5s ease;
 }
 
-.nav__button{
+.nav__button {
   display: none;
 }
 /* menu */
@@ -213,7 +213,7 @@ a {
 
 /* hero */
 .ject__hero {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   height: 100vh;
   padding-top: 80px;
 
@@ -245,13 +245,13 @@ a {
   z-index: 3;
 }
 .ject__hero-content h1 {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   font-weight: 700;
 }
 .ject__hero-content p {
   font-size: 2rem;
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 2.8rem;
 }
 .ject__hero-content button {
   width: 125px;
@@ -262,7 +262,7 @@ a {
 
 /* about */
 .ject__about {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   padding: 4rem 0 0;
 }
 .ject__about-content {
@@ -316,7 +316,7 @@ strong {
 
 /* more about */
 .ject__more {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -339,7 +339,7 @@ strong {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(4, 26, 63, .7);
+  background-color: rgba(4, 26, 63, 0.8);
   z-index: 2;
 }
 .ject__more-content {
@@ -393,13 +393,13 @@ strong {
   z-index: 2;
   position: relative;
 }
-.ject__more-content_values::-webkit-scrollbar{
+.ject__more-content_values::-webkit-scrollbar {
   display: none;
 }
 .ject__more-content_values-value {
   display: inline-block;
   color: white;
-  background: rgba(2, 15, 37, 0.4);
+  background: rgba(2, 15, 37, 0.2);
   text-align: center;
   border-radius: 5%;
 
@@ -422,7 +422,7 @@ strong {
 /* careers */
 .ject__careers {
   text-align: center;
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   margin: 2rem 0;
   padding: 2rem 1.5rem;
 }
@@ -450,6 +450,12 @@ strong {
   font-size: 2.5rem;
   font-weight: 600;
 }
+.fist__list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .first__list-pos {
   background: var(--main-color);
   color: rgb(255, 255, 255);
@@ -478,6 +484,7 @@ strong {
 .careers__faq-question {
   text-align: left;
   border-bottom: 1px solid lightblue;
+  cursor: pointer;
 }
 .faq__question h3 {
   margin: 1rem 0.5rem;
@@ -507,7 +514,7 @@ strong {
 /* ! footer */
 /* -------------------------------------------------------------------------------- */
 .ject__footer {
-  font-family: var(--font-family2);
+  font-family: var(--font-family1);
   background: rgb(7, 28, 67);
   color: #ffffff;
   padding: 2rem;
@@ -516,6 +523,11 @@ strong {
   flex-direction: column;
   gap: 3rem;
 }
+
+.ject__footer h2 {
+  font-size: 2.5rem;
+}
+
 .ject__footer a {
   text-decoration: none;
   color: #fff;
@@ -572,114 +584,115 @@ strong {
 }
 /* BIGGER RESOLUTION */
 @media (min-width: 480px) {
-  .ject__nav-menu a{
+  .ject__nav-menu a {
     font-size: 3.5rem;
   }
-  .menu__container-social{
+  .menu__container-social {
     padding-top: 2rem;
   }
-  .menu__container-social img{
+  .menu__container-social img {
     height: 50px;
   }
-  .ject__hero-content h1{
+  .ject__hero-content h1 {
     font-size: 6rem;
+    line-height: 6rem;
   }
-  .ject__hero-content p{
+  .ject__hero-content p {
     font-size: 3rem;
-    line-height: 3.5rem;
+    line-height: 4rem;
   }
-  .ject__about-content h2{
+  .ject__about-content h2 {
     font-size: 5rem;
     line-height: 4rem;
   }
-  .ject__about-content b{
+  .ject__about-content b {
     font-size: 4rem;
   }
-  .ject__about-content p{
+  .ject__about-content p {
     font-weight: 400;
     font-size: 2rem;
     line-height: 3rem;
   }
-  .ject__about-content_stats-data label{
+  .ject__about-content_stats-data label {
     font-size: 5.5rem;
   }
-  .ject__about-content_stats-data h3{
+  .ject__about-content_stats-data h3 {
     font-size: 1.5rem;
   }
-  .ject__more-content_block h3{
+  .ject__more-content_block h3 {
     font-size: 4.5rem;
   }
-  .ject__more-content_block p{
+  .ject__more-content_block p {
     font-weight: 400;
     font-size: 2rem;
     line-height: 3rem;
   }
-  .ject__more-valuestitle{
+  .ject__more-valuestitle {
     font-size: 4.5rem;
   }
-  .ject__more-content_values-value{
+  .ject__more-content_values-value {
     padding: 1.5rem 2rem;
   }
-  .ject__more-content_values-value h3{
+  .ject__more-content_values-value h3 {
     font-size: 2rem;
   }
-  .ject__more-content_values-value p{
+  .ject__more-content_values-value p {
     font-weight: 400;
     font-size: 2rem;
   }
-  .careers__block h2{
+  .careers__block h2 {
     font-size: 4.5rem;
   }
-  .first__list-intro{
+  .first__list-intro {
     font-weight: 400;
     font-size: 2rem;
     line-height: 3rem;
   }
-  .first__list-title{
-    font-size: 4rem
+  .first__list-title {
+    font-size: 4rem;
   }
-  .first__list-pos h3{
+  .first__list-pos h3 {
     font-size: 2.2rem;
   }
-  .first__list-pos p{
+  .first__list-pos p {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
-  .careers__block h2{
+  .careers__block h2 {
     font-size: 4.5rem;
   }
-  .faq__question h3{
+  .faq__question h3 {
     font-size: 2.5rem;
     line-height: 3.2rem;
   }
-  .faq__answer p{
+  .faq__answer p {
     font-weight: 400;
     font-size: 2rem;
     line-height: 2.8rem;
   }
-  .ject__footer a{
+  .ject__footer a {
     font-size: 1.5rem;
   }
 }
 
-@media (min-width: 720px){
-  .menu__container-social{
+@media (min-width: 720px) {
+  .menu__container-social {
     display: none;
   }
-  .toggle{
+  .toggle {
     display: none;
   }
-  #checkbox{
+  #checkbox {
     display: none;
   }
-  .ject__nav{
-    padding: 0 3rem;
+  .ject__nav {
+    padding: 0 8rem;
   }
-  .nav__button{
+  .nav__button {
     display: block;
   }
-  .ject__nav-menu{
+  .ject__nav-menu {
     position: relative;
     visibility: visible;
     opacity: 1;
@@ -691,27 +704,214 @@ strong {
 
     flex: 1;
   }
-  .nav__contatti{
+  .nav__contatti {
     display: none;
   }
-  .menu__container{
+  .menu__container {
     flex-direction: row;
     justify-content: end;
     gap: 3rem;
-    
   }
-  .ject__nav-menu a{
+  .ject__nav-menu a {
     color: var(--main-color);
     font-size: 1.3rem;
+    font-weight: 500;
     letter-spacing: 0;
   }
-  .background-image-hero{
-    background: url(public/catania/gisira-desktop.jpg) no-repeat center;
+  .background-image-hero {
+    background: url(public/catania/mare.jpg) no-repeat center;
   }
-  .ject__hero-content{
-    text-align:center ;
+  .ject__hero-content {
+    text-align: center;
+    margin: 1.5rem;
   }
-  .ject__hero-content p{
+
+  .ject__hero-content h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+
+  .ject__hero-content p {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .ject__about {
+    display: grid;
+    place-items: center;
+
+    min-height: 80vh;
+  }
+
+  .ject__about-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    max-width: 1200px;
+
+    margin-bottom: 3.5rem;
+  }
+
+  .ject__about-content_info {
+    width: 50%;
+  }
+
+  .ject__about-content_stats {
+    width: 50%;
+    align-items: center;
+  }
+  .ject__about-content_stats-data {
+    width: 350px;
+  }
+
+  .background-image-more {
+    background: url(public/catania/3.jpg) no-repeat center;
+    top: -170px;
+    height: 200%;
+  }
+
+  .ject__more {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 0 10rem;
+  }
+
+  .ject__more-content {
+    margin: 0;
+    width: 50%;
+  }
+
+  .ject__more-content_block h3 {
+    font-size: 3.5rem;
+  }
+
+  .ject__more-content_block p {
     font-size: 2rem;
+  }
+
+  .ject__more-valuestitle {
+    display: none;
+  }
+
+  .ject__more-content_values {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .ject__more-content_values-value {
+    display: block;
+    text-align: center;
+    border-radius: 0;
+
+    padding: 2rem 1.5rem;
+  }
+
+  .ject__more-content_values-value h3 {
+    font-size: 1.5rem;
+  }
+
+  .ject__more-content_values-value p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+
+    margin-top: 0.8rem;
+  }
+
+  .ject__careers {
+    min-height: 80vh;
+    padding: 3rem 10rem;
+
+    display: flex;
+    gap: 6rem;
+  }
+
+  .careers__block h2 {
+    font-size: 4rem;
+  }
+
+  .careers__first-list {
+    align-items: center;
+  }
+
+  .first__list-intro {
+    font-size: 2rem;
+
+    margin: 0;
+  }
+  .first__list-title {
+    font-size: 3rem;
+  }
+
+  .fist__list-container {
+    flex-direction: row;
+  }
+
+  .first__list-pos {
+    max-width: 350px;
+  }
+
+  .first__list-pos h3 {
+    font-size: 1.5rem;
+  }
+
+  .first__list-pos p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+
+  .ject__careers-faq {
+    color: white;
+    padding: 2rem 2.5rem;
+
+    background: rgb(7, 40, 98);
+    border-radius: 2%;
+  }
+
+  .white_title h2 {
+    color: white;
+  }
+
+  .faq__question h3 {
+    font-size: 1.8rem;
+  }
+  .faq__answer p {
+    font-size: 1.5rem;
+  }
+
+  .ject__footer {
+    margin-top: 5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 40vh;
+
+    position: relative;
+  }
+
+  .ject__footer h2 {
+    font-size: 3rem;
+
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+  }
+
+  .ject__footer p {
+    position: absolute;
+
+    bottom: 1rem;
   }
 }

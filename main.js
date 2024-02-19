@@ -38,6 +38,7 @@ document.querySelectorAll('.faq__question').forEach(question => {
 let maxHeight = 0, maxWidth = 0;
 const values = document.querySelectorAll(".ject__more-content_values-value");
 
+
 values.forEach(value => {
   const height = value.offsetHeight;
   const width = value.offsetWidth;
