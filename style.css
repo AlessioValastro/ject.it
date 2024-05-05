@@ -465,21 +465,25 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 .first__container--form button {
   width: 110px;
   height: 40px;
-  text-decoration: underline;
+  
 }
 .first__container--form a {
   color: white;
+  text-decoration: underline;
+}
+.first__container--form a:hover{
+  color: black;
 }
 
 .first__form--social {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
 }
 
 .first__form--social img {
@@ -696,7 +700,17 @@ strong {
 @media (min-width: 1080px) {
   .first__container--form {
     flex-direction: row;
+    justify-content: center;
   }
+
+  .first__container--form button{
+    height: 50px;
+    max-width: 170px;
+  }
+  .first__form--social{
+    width: 50%;
+  }
+  
   .menu__container-social {
     display: none;
   }

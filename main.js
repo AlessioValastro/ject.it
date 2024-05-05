@@ -86,18 +86,25 @@ function ScrollToTop() {
     behavior: "smooth",
   });
 }
-document.querySelector("#home").addEventListener("click", ScrollToTop);
-document.querySelector("#about").addEventListener("click", () => {
+document.querySelectorAll(".home__button").forEach((button) => {
+  button.addEventListener("click", ScrollToTop);
+});
+
+document.querySelectorAll(".about__button").forEach(button => {
+  button.addEventListener("click", () => {
   document.querySelector(".ject__about").scrollIntoView({
     behavior: "smooth",
   });
 });
+})
 
-document.querySelector("#careers").addEventListener("click", () => {
+document.querySelectorAll(".careers__button").forEach(button => {
+  button.addEventListener("click", () => {
   document.querySelector(".ject__careers").scrollIntoView({
     behavior: "smooth",
   });
 });
+})
 
 document.querySelector(".nav__button").addEventListener("click", () => {
   document.querySelector(".ject__footer").scrollIntoView({
