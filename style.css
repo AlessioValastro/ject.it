@@ -8,7 +8,7 @@
   --main-color: #1156cceb;
   /* ! secondary */
   --color1-darker: #05668d;
-  --color1-dark: #028090;
+  --color1-dark: #3c78d8;
   /* ! accent */
   --color-accent: #10b1f6;
 
@@ -932,7 +932,7 @@ strong {
     color: white;
     padding: 2rem 2.5rem;
 
-    background: rgb(7, 40, 98);
+    background: var(--main-color);
     border-radius: 2%;
   }
 
