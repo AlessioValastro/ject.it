@@ -796,8 +796,7 @@ strong {
   .ject__about {
     display: grid;
     place-items: center;
-
-    min-height: 80vh;
+    min-width: 60vh;
   }
 
   .ject__about-content {
@@ -823,21 +822,29 @@ strong {
   }
 
   .background-image-more {
-    background: url(public/catania/3.jpg) no-repeat center;
-    top: -170px;
-    height: 200%;
+    background: url(public/catania/colonne.jpg) no-repeat center;
+    background-size: cover;
+    top: -200px;
+    height: 250%;
   }
 
   .ject__more {
-    min-height: 80vh;
     display: flex;
     align-items: center;
     gap: 5rem;
-    padding: 0 10rem;
+    padding: 6rem 10rem;
+    margin-bottom: 100px;
   }
 
   .ject__more-content {
     margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .ject__more-content_block{
     width: 50%;
   }
 
@@ -854,17 +861,7 @@ strong {
   }
 
   .ject__more-content_values {
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-
-    overflow-x: hidden;
-    overflow-y: hidden;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0;
+    display: none;
   }
 
   .ject__more-content_values-value {
@@ -970,5 +967,8 @@ strong {
     position: absolute;
 
     bottom: 1rem;
+  }
+  .ject__footer-contatti a:hover{
+    text-decoration: underline;
   }
 }
